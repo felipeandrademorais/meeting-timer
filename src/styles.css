@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e6ecf0;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container button {
+  height: 45px;
+  width: 90px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.app-container button.start {
+  background: #2ecc71;
+}
+
+.app-container button.stop {
+  background: #f1c40f;
+}
+
+.app-container button.reset {
+  background: #e74c3c;
+}
+
+.app-container input {
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+  size: 20px;
+  margin: 15px;
+  font-size: 14px;
+}
+
+.app-container input .input-time {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container .lateral {
+  margin-right: 60px;
+  padding: 15px;
+}
+
+.container .lateral h3 {
+  margin-left: 15px;
+}
+
+.container .lateral h1 {
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.exceed-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  padding: 5px;
+  color: #c0392b;
+}
+
+.container .container-time {
+  padding: 15px;
+}
+
+.container .timer-container {
+  padding-left: 25px;
+}
+
+.timer-container {
+  font-size: 68px;
+}
